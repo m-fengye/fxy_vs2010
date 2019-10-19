@@ -1,0 +1,46 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="fxy_vs2010.Site" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link type="text/css" rel="styleSheet"  href="/css/master.css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div class='big'>
+        <div class='head'>
+            <div class='banner'>
+                <img src="/images/logo.png" alt='图片'/>
+                <p>法学院</p>
+            </div>
+            <div class='nav'>
+                <ul>
+                    <li><a href='/index.aspx'>首页</a></li>
+                    <li><a href='/onstage/xygk.aspx'>学院概况</a></li>
+                    <li><a href='/onstage/dwgk.aspx'>党务公开</a></li>
+                    <li><a href='/onstage/xyxw.aspx'>学院新闻</a></li>
+                    <li><a href='/onstage/bks.aspx'>本科生</a></li>
+                    <li><a href='/onstage/yjs.aspx'>研究生</a></li>
+                    <li><a href='/onstage/kxyj.aspx'>科学研究</a></li>
+                    <li><a href='/onstage/zzxx.aspx'>站长信息</a></li>
+                </ul>
+            </div>
+            
+        </div>
+        <div class='midden'>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+            </asp:ContentPlaceHolder>
+        </div>
+        <div class='footer'>
+            <div style='background:#1661ab;height:5px;width:100%;display:inline-block;'></div>
+            <p>版权所有 &copy; 版权所有者 地区ICP备XXXXXXXX号</p>
+            <p>地址：XXX省XXX市XXX区XXX路XXX号 电话：XXXX-XXXXXXXX 邮政编码：XXXXXX</p>
+        </div>
+    </div>
+
+</body>
+</html>

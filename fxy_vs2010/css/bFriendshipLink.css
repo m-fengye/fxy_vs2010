@@ -1,0 +1,34 @@
+﻿/*标题*/
+.title
+{
+    margin:20px 0 0 20px;
+    background:#999;
+}
+/*添加*/
+#form1
+{
+    margin:130px auto;
+    padding:0px calc((100% - 300px)/2);
+}
+#form1 p
+{
+    margin:20px 0;
+    width:300px;
+}
+#txtLinkName,#txtLinkAddress
+{
+}
+
+/*删除*/
+#form2
+{
+    margin:130px auto;
+    padding:0px calc((100% - 600px)/2);
+}
+
+/*管理*/
+#form3
+{
+    margin:130px auto;
+    padding:0px calc((100% - 1000px)/2);
+}

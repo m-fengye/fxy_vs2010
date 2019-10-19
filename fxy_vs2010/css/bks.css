@@ -1,0 +1,59 @@
+﻿/*左侧导航*/
+.list
+{
+    width:230px;
+    margin-right:20px;
+    float:left;
+    height:400px;
+    background-image:url(/images/listleft_bg.gif);
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+}
+.list h2
+{
+    margin:20px 0 10px 10px;
+    color:#eee;
+}
+.list ul
+{
+    margin:10px 0 10px 50px;
+}
+.list li
+{
+    margin:0 0 20px 0;
+}
+.list a
+{
+    font-size:14px;
+}
+.list a:link,.list a:visited 
+{
+    text-decoration: none;
+    color: #eee;
+}/* 未访问的链接 已访问的链接 */
+.list a:hover {
+    color: #999;
+}	/* 鼠标移动到链接上 */
+.list a:active {
+    color: #eee;
+}	/* 选定的链接 */
+/*内容区*/
+.content
+{
+    width:710px;
+    min-height:400px;
+    padding:10px 20px;
+    float:left;
+    background:#93b5cf;
+}
+.content h2
+{
+    margin:20px 0px 0px 10px;
+    color:#2177b8;
+}
+.content p
+{
+    font-size:16px;
+    line-height:2em;
+    text-indent:2em;
+}

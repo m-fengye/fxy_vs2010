@@ -1,0 +1,48 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="bSite.master.cs" Inherits="fxy_vs2010.backstage.bSite" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link type="text/css" rel="Stylesheet" href="/css/bmaster.css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div class="head">
+        <p>欢迎来到管理员后台</p>
+    </div>
+    <div class="big">
+        <div class="list">
+            <h2>操作列表</h2>
+            <ul>
+                <p>友情链接</p>
+                <li><a href="AddFriendshipLink.aspx">添加链接</a></li>
+                <li><a href="DelFriendshipLink.aspx">删除链接</a></li>
+                <p>学院新闻</p>
+                <li><a href="EditSchoolNews.aspx">发布新闻</a></li>
+                <li><a href="ManagerSchoolNews.aspx">管理新闻</a></li>
+                <p>党务公开</p>
+                <li><a href="EditPartyWork.aspx">发布党务信息</a></li>
+                <li><a href="ManagerPartyWork.aspx">管理党务信息</a></li>
+                <p>公开信息</p>
+                <li><a href="EditPublicInfo.aspx">发布信息</a></li>
+                <li><a href="ManagerPublicInfo.aspx">管理信息</a></li>
+                <p>管理用户</p>
+                <li><a href="AddUser.aspx">添加用户</a></li>
+                <li><a href="DelUser.aspx">删除用户</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+            </asp:ContentPlaceHolder>
+        </div>
+    </div>
+    <div class='footer'>
+        <div style='background:#1661ab;height:5px;width:100%;display:inline-block;'></div>
+        <p>版权所有 &copy; 版权所有者 地区ICP备XXXXXXXX号</p>
+        <p>地址：XXX省XXX市XXX区XXX路XXX号 电话：XXXX-XXXXXXXX 邮政编码：XXXXXX</p>
+    </div>
+</body>
+</html>

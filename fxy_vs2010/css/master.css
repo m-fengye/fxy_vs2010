@@ -1,0 +1,99 @@
+﻿body,*
+{
+    margin:0;
+    padding:0;
+    font-family:"宋体","微软雅黑";
+}
+body
+{
+    border-top:8px solid #1491a8;
+}
+a:link,a:visited 
+{
+    text-decoration: none;
+    color: #000;
+}/* 未访问的链接 已访问的链接 */
+a:hover {
+    color: #666;
+}	/* 鼠标移动到链接上 */
+a:active {
+    color: #000;
+}	/* 选定的链接 */
+
+
+/*内容区*/
+.big
+{
+    width:1000px;
+    margin:0 auto;
+}
+
+/*顶部样式*/
+.head .banner
+{
+    height:110px;
+    background:url(/images/headnav.jpg);
+}
+.head .banner img
+{
+    width:400px;
+    margin:15px 20px;
+    float:left;
+}
+.head .banner p
+{
+    width:200px;
+    margin:25px 0;
+    font-size:48px;
+    font-weight:bold;
+    color:#0A4B8C;
+    float:left;
+}
+.nav
+{
+    height:66px;
+    border-radius:5px;
+    background-color:#b0d5df;
+    border-bottom:5px solid #1a94bc;
+}
+.head ul
+{
+    list-style:none;
+}
+.head li
+{
+    width:125px;
+    font-size:22px;
+    padding:20px 0;
+    text-align:center;
+    float:left;
+
+}
+.head li:hover
+{
+    background:#1a94bc;
+}
+.head a{
+    text-decoration: none;
+    display:inline-block;
+    width:125px;
+}
+
+
+/*中间样式*/
+.midden
+{
+    margin:10px 0;
+}
+/*底部样式*/
+.footer
+{
+    margin-top:10px;
+    padding:25px 0;
+    background:#f0f0f0;
+}
+.footer p
+{
+    text-align:center;
+    color:#5d5d5d;
+}

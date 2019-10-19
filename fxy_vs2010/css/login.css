@@ -1,0 +1,44 @@
+﻿*{
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+body {
+    margin:0;
+    padding:0;
+    
+}
+.bgdiv{
+    height:100%;
+    width:100%;
+    background-size:100% 100%;
+    position:absolute;
+    left:0;
+    top:0;
+    display:block;
+    z-index:-3;
+    filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";
+}
+#bg1{
+    z-index:-1;
+}
+#bg2{
+    z-index:-2;
+}
+#loginbg{
+    width:500px;
+    height:300px;
+    margin:8% auto 0 auto;
+    padding-top:30px;
+    background:rgba(209, 187, 187, 0.4);
+    border-radius:20px 0px 20px 0px;
+    text-align:center;
+}
+#loginbg h2{
+    background-image:-webkit-linear-gradient(left,#833ab4,#fd1d1d,#fcb045); 
+    -webkit-background-clip:text; 
+    -webkit-text-fill-color:transparent; 
+}
+#txtUserName,#txtPassword
+{
+    border-radius:5px;
+    background:rgba(255, 255, 255, 0.7);
+}

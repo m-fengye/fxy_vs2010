@@ -1,0 +1,21 @@
+﻿.title
+{
+    margin:10px 0px 20px 10px;
+    width:460px;
+    display:inline-block;
+}
+.title input
+{
+    font-size:larger;
+    width:350px;
+}
+.button
+{
+    font-size:larger;
+    width:80px;
+}
+#form1
+{
+    padding-top:10px;
+    padding-left:50px;
+}

@@ -1,0 +1,167 @@
+﻿/*轮播图*/
+#flash{width:1000px;height: 400px;margin: 0px auto;position: relative;}
+#flash #play{width:1000px;height: 400px;list-style: none;position:absolute;top:0px;left:0px;}
+#flash #play li{display: none;position:absolute;top:0px;left:0px;}
+#flash #play li img{float: left;width:1000px;height:400px;}
+#button{position: absolute;bottom:20px;left:400px;list-style: none;}
+#button li{margin-left: 10px;float: left;}
+#button li div{width:12px;height: 12px;background:#DDDDDD;border-radius: 6px;cursor: pointer;}
+#prev{width:40px;height:63px;background:url(images/beijing.png) 0px 0px;position: absolute;top:170px;left:10px;z-index: 1000;}
+#next{width:40px;height:63px;background:url(images/beijing.png) -40px 0px;position: absolute;top:170px;right:10px;z-index: 1000;}
+#prev:hover{background:url(/images/beijing.png) 0px -62px;}
+#next:hover{background:url(/images/beijing.png) -40px -62px;}
+
+.midden h2
+{
+    margin:20px 0 10px 10px;
+    /*background:#2177b8;*/
+}
+
+
+/*友情链接*/
+.yqlj
+{
+    width:265px;
+    margin-top:10px;
+    margin-right:5px;
+    float:left;
+    border:2px solid #144a74;
+    background-image:url(/images/mainleft1.gif);
+    background-repeat:no-repeat;
+    background-size:100% 15%;
+    background-position:0 2px;
+}
+.yqlj ul
+{
+    margin:10px 0 10px 50px;
+}
+.yqlj li
+{
+    margin:0 0 20px 0;
+}
+.yqlj a
+{
+    font-size:14px;
+    width: 215px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+}
+.yqlj h2
+{
+    color:#eee;
+}
+/*学院新闻*/
+.xyxw
+{
+    width:722px;
+    margin-top:10px;
+    margin-bottom:5px;
+    float:left;
+    border:2px solid #144a74;
+}
+.xyxw ul
+{
+    margin:10px 0 10px 50px;
+}
+.xyxw li
+{
+    margin:0 0 20px 0;
+}
+.xyxw a
+{
+    font-size:14px;
+    width: 650px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+}
+.xyxw p
+{
+    margin-right:20px;
+    color:#666;
+    float:right;
+}
+/*党务公开*/
+.dwgk
+{
+    width:354px;
+    margin-right:5px;
+    float:left;
+    background-image:url(/images/mainmiddle3.gif);
+    border:2px solid #144a74;
+}
+.dwgk ul
+{
+    margin:10px 0 10px 50px;
+}
+.dwgk li
+{
+    margin:0 0 20px 0;
+}
+.dwgk a
+{
+    font-size:14px;
+    width: 290px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+}
+.dwgk h2
+{
+    color:#eee;
+}
+.dwgk a:link,.dwgk a:visited 
+{
+    text-decoration: none;
+    color: #eee;
+}/* 未访问的链接 已访问的链接 */
+.dwgk a:hover {
+    color: #999;
+}	/* 鼠标移动到链接上 */
+.dwgk a:active {
+    color: #eee;
+}	/* 选定的链接 */
+/*公开信息*/
+.gkxx
+{
+    width:359px;
+    float:left;
+    background-image:url(/images/mainmiddle3.gif);
+    border:2px solid #144a74;
+}
+.gkxx ul
+{
+    margin:10px 0 10px 50px;
+}
+.gkxx li
+{
+    margin:0 0 20px 0;
+}
+.gkxx a
+{
+    font-size:14px;
+    width: 290px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+}
+.gkxx h2
+{
+    color:#eee;
+}
+.gkxx a:link,.gkxx a:visited 
+{
+    text-decoration: none;
+    color: #eee;
+}/* 未访问的链接 已访问的链接 */
+.gkxx a:hover {
+    color: #999;
+}	/* 鼠标移动到链接上 */
+.gkxx a:active {
+    color: #eee;
+}	/* 选定的链接 */

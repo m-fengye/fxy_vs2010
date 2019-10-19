@@ -1,0 +1,8 @@
+E:\Project\ASP.NET\fxy_vs2010\fxy_vs2010\bin\fxy_vs2010.dll
+E:\Project\ASP.NET\fxy_vs2010\fxy_vs2010\bin\fxy_vs2010.pdb
+E:\Project\ASP.NET\fxy_vs2010\fxy_vs2010\obj\Debug\fxy_vs2010.dll
+E:\Project\ASP.NET\fxy_vs2010\fxy_vs2010\obj\Debug\fxy_vs2010.pdb
+E:\Project\ASP.NET\fxy_vs2010\fxy_vs2010\obj\Debug\fxy_vs2010.csprojResolveAssemblyReference.cache
+E:\Project\ASP.NET\fxy_vs2010\fxy_vs2010\bin\Newtonsoft.Json.dll
+E:\Project\ASP.NET\fxy_vs2010\fxy_vs2010\bin\Newtonsoft.Json.pdb
+E:\Project\ASP.NET\fxy_vs2010\fxy_vs2010\bin\Newtonsoft.Json.xml
